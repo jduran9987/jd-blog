@@ -1,0 +1,15 @@
+.header-title {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.header-desc {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+
+.header-link-icon {
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    border: 10 solid;
+}
