@@ -1,15 +1,49 @@
-.header-title {
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Source Code Pro', monospace;
-    font-weight: 900;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
 }
 
-.header-desc {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.header-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding: 30px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
 }
 
 .header-link-icon {
-    font-family: 'Source Code Pro', monospace;
-    text-decoration: none;
-    border: 10 solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    border: 3px solid orange;
+    color: white;
 }
