@@ -24,7 +24,6 @@ a {
     padding: 30px;
     font-weight: 900;
     font-size: 35px;
-    border: 2px solid blue;
 }
 
 .header-description {
@@ -34,7 +33,6 @@ a {
     width: 95%;
     padding: 50px;
     font-size: 20px;
-    border: 2px solid blue;
 }
 
 .header-links {
