@@ -42,6 +42,7 @@ a {
 }
 
 .header-link-btn {
+    display: grid;
     background-color: orange;
     color: white;
     border: none;
@@ -51,6 +52,7 @@ a {
     width: 70px;
     height: 30px;
     cursor: pointer;
+    place-items: center;
 }
 
 .header-link-btn:hover {
