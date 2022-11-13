@@ -8,31 +8,46 @@ a {
     text-decoration: none;
 }
 
-#header {
-    display: flex;
-    justify-content: center;
+.header {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
     align-items: center;
-    flex-direction: column;
-    padding: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    height: 30vh;
+    margin-top: 20px;
 }
 
 .header-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.nav-links-btn {
+    color: rgb(179, 177, 177);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.nav-links-btn:hover {
+    color: black
 }
 
 .header-description {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
-    padding: 50px;
-    font-size: 20px;
+    width: 450px;
+    font-size: 12px;
 }
 
 .header-links {
@@ -43,8 +58,8 @@ a {
 
 .header-link-btn {
     display: grid;
-    background-color: orange;
-    color: white;
+    background-color: rgb(248, 162, 4);
+    color: black;
     border: none;
     border-radius: 3px;
     font-size: 12px;
@@ -57,4 +72,5 @@ a {
 
 .header-link-btn:hover {
     background-color: black;
+    color: white;
 }
