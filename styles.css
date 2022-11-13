@@ -1,15 +1,76 @@
-.header-title {
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Source Code Pro', monospace;
-    font-weight: 900;
+    box-sizing: border-box;
 }
-
-.header-desc {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-}
-
-.header-link-icon {
-    font-family: 'Source Code Pro', monospace;
+a {
     text-decoration: none;
-    border: 10 solid;
+}
+
+.header {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    height: 30vh;
+    margin-top: 20px;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.nav-links-btn {
+    color: rgb(179, 177, 177);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.nav-links-btn:hover {
+    color: black
+}
+
+.header-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    font-size: 12px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.header-link-btn {
+    display: grid;
+    background-color: rgb(248, 162, 4);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 900;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    place-items: center;
+}
+
+.header-link-btn:hover {
+    background-color: black;
+    color: white;
 }
